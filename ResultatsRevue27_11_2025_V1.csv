@@ -1,4 +1,4 @@
-﻿Ordre;Authors, Reference;YearOfPublication;Diseases targeted;Database;Classification ;Used Classifiers;Features;Best Accuracy
+﻿OrderNumber;Authors, Reference;YearOfPublication;Diseases targeted;Database;Classification ;Used Classifiers;Features;Best Accuracy
 1;Song et al. [89];2024;Laryngeal cancer, paralysis, mucosal diseases;Private (Korea);Multi;CNN (Resnet);MFCC, Octave Frequency Spectrum Energy;100%
 2;Sayadi et al. [83];2024;Voice pathologies (unspecified) ;Private (Iran);Binary;DNN;jitter, shimmer, pitch, MFCC, SNR, formants;91%
 3;Di Cesare et al. [25];2024;Parkinson’s disease;Local;Binary;KNN, SVM, wide NN;MFCC, GTCC;92.30%
