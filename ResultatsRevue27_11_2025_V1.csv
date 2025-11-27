@@ -96,3 +96,6 @@
 95;Amara et al. [11];2016;Dysphonia;SVD;Binary;SVM, GMM  ;MFCC;96.50%
 96;Ezzine et al. [29];2016;Laryngeal cancer;SVD;Binary;ANN;temporal /frequency;98%
 97;Ali et al. [6];2016;Voice pathologies (unspecified);AVPD;Binary;SVM;Voice contour, intensity;100%
+98;Ghasemzadeh [34];2015;Voice pathologies (unspecified);MEEI;Binary;Genetic algorithm, LDA, SVM;Phase space parameters, Lyapunov spectrum;98.40%
+99;Akbari and Arjmandi  [2];2015;Voice pathologies (unspecified);MEEI;Binary;SVM;Discrete wavelet coefficients;97.01%
+100;Mekyska et al. [67];2015;Voice pathologies (unspecified);MEEI, HUPA, PARCZ (Czech);Binary;SVM, RF;Acoustic ;99.90%
