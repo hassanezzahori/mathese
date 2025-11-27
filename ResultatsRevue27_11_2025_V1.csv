@@ -1,0 +1,100 @@
+﻿OrderNumber;Authors, Reference;YearOfPublication;Diseases targeted;Database;Classification ;Used Classifiers;Features;Best Accuracy
+1;Song et al. [89];2024;Laryngeal cancer, paralysis, mucosal diseases;Private (Korea);Multi;CNN (Resnet);MFCC, Octave Frequency Spectrum Energy;100%
+2;Sayadi et al. [83];2024;Voice pathologies (unspecified) ;Private (Iran);Binary;DNN;jitter, shimmer, pitch, MFCC, SNR, formants;91%
+3;Di Cesare et al. [25];2024;Parkinson’s disease;Local;Binary;KNN, SVM, wide NN;MFCC, GTCC;92.30%
+4;Lee and Lee [60];2024;Voice pathologies (unspecified);SVD;Binary;CNN(Resnet18),  SVM;Handcrafted;80.90%
+5;Cai et al. [17];2024;Voice pathologies (unspecified);VOICED;Binary;SVM, KNN, DT, RF;Wav2vec features;98%
+6;Lima-flho et al. [63];2024;Dysphonia;Local (Brazil);Multi;XGBoost, RF, DT, SVM, LR, KNN, MLP;Acoustic;96.20%
+7;Heo et al. [49];2024;Dysphagia ;Local;Binary;CNN;Mel-spectrum;90%
+8;Zhao et al.[110] ;2024;Voice pathologies (unspecified);MEEI, SVD, HUPA;Binary;CNN, MLP, LSTM;MFCC, GTCC, waveforms, Glottal flow features;98.22%
+9;Korba et al. [59] ;2024;Voice pathologies (unspecified);HUPA;Binary;SVM, RF, XGBoost;Fundamental frequency, MFCC;88.79%
+10;Özbay et al. [78] ;2024;cordectomy, dysphonia, partial resection, contact pachyderma, laryngitis, Lukoplakia, Reinke’s edema, paralysis, polyps, vox-senilis;SVD;Multi;SVM;MFCC, RMSE,  ZCR;99.50%
+11;Disken  [27];2024;;SVD;Multi;CNN (ResNet);Waveforms (Raw);99.40%
+12;Yagnavajjula et al. [108];2024;Dysphonia, Recurrent laryngeal nerve palsy;SVD;Binary;SVM, ANN;MFCC, openSmile;81%
+13;Rehman [81];2024;Voice pathologies (unspecified);SVD, MEEI, Private;Binary;SVM, KNN, NB, DT;Frequency, jitter, period, shimmer;99.97%
+14;Kim et al. [58];2024;laryngeal cancer, vocal cord paralysis, mucosal disease;Local (Korea);Multi;SVM, ANN, GBM ;MFCC;97%
+15;Javanmardi et al. [52];2024;Voice pathologies (unspecified);SVD, HUPA ;Binary;SVM, RF, LSTM, CNN;MFCC, mel-spectrogram, spectrogram;76%
+16;Coelho et al. [22];2023;Voice pathologies(unspecified);SVD;Binary;RF, XGBoost;Spectral;90.60%
+17;Za’im et al. [109];2023;Dysphonia;MVPD (Malaysia);Binary;OSELM ;MFCC;90%
+18;Barbon et al. [13];2023;Dysphonia, laryngeal motion disorder, laryngitis, Reinke’s edema, vox senilis, ;SVD;Multi;RF, SVM;Energy, ZCR, entropy;96.88%
+19;Xie et al. [106];2023;Dysphonia, paralysis, nodules, polyps ;Local (China);Multi;CNN;MFCC;92%
+20;Peng et al. [79];2023;Laryngitis, dysphonia;VOICED;Multi;CNN;Mel-spectrogram (Grad-CAM);99.50%
+21;Mittapalle et al.[68];2023;Hyperkinetic dysphonia;VOICED;Multi;CNN;MFCC, Wavelets Transform;67.91%
+22;Mohammed et al.  [69];2023;Voice pathologies(unspecified);SVD;Binary;CNN, LSTM;Spectrogram;96.05%
+23;Calà et al.  [18];2023;Spasmodic dysphonia;Local (Italy);Multi;KNN;Acoustic (48 features);89%
+24;Tirronen et al. [99];2023;Hyperfunctional dysphonia, and vocal fold paresis ;SVD;Multi;SVM;MFCC;62.77%
+25;Kim et al. [57];2023;Dysphagia;Local;Binary;CNN;STFT spectrogram, MFCC;95%
+26;Shaikh et al. [86];2023;Flux laryngitis, hyperkinetic dysphonia, hypokinetic dysphonia;VOICED;Multi;MLP, 1D-CNN;STFT spectrogram, MFCC;97.10%
+27;Huckvale et al. [51];2023;Spasmodic dysphonia, vocal fold Paralysis;SVD;Binary;SVM;OpenSMILE features;72.10%
+28;Vieira et al. [101];2023;Voice pathologies (unspecified);MEEI ;Binary;LDA;LPC, MFCC, GFCC;92.73%
+29;Warul et al. [104];2023;Parkinson’s disease;PC-GITA (Spain);Binary;DT, KNN, NB, SVM;MFCC;99%
+30;Thennal et al. [97];2023;Leukoplakia;SVD;Binary;DNN;STFT;81.25%
+31;Alves et al. [9];2023;Vocal nodule, Reinke’s edema, neurological dysphonia;local (Brazil);Binary;SVM, KNN;Cepstral, MFCC;82%
+32;Yagnavajjula et al. [107];2022;Recurrent laryngeal nerve palsy, dysphonia;SVD;Binary;SVM;MFCC, Perceptual LPCC;76.25%
+33;Tirronen et al. [98];2022;hyperkinetic dysphonia, hypokinetic dysphonia, reflux laryngitis;SVD;Binary;SVM;MFCC;75%
+34;Al-Dhief et al. [4];2022;Dysphonia;SVD;Binary;NB ;MFCC;81.48%
+35;Fujimura et al. [32] ;2022;Voice pathology severity (unspecified); Local;Multi;1D-CNN;Waveforms ;88.30%
+36;Geng et al.[33];2022;Laryngitis, Leukoplakia, Reinke Edema, Paralysis, Carcinoma, Polyp, Dysphonia, Nodule, Cyst.;SVD;Multi;LSTM;MFCC;98.02%
+37;Leite et al. [62];2022;Dysphonia ;Paraiba (Brazil);Binary;RF, NB, SVM, RL, KNN;Acoustic (34 features);91%
+38;Reid [82];2022;Voice pathologies (unspecified);SVD;Binary;SVM, CNN;MFCC;97.80%
+39;Chaiani et al. [19];2022;Cordectomy, dysphonia, Frontolateral laryngectomy, Pachydermia larynges;SVD;Multi;CNN-LSTM;STFT (spectrogram);71.15%
+40;Shrivas et al. [87];2022;Voice pathologies (unspecified);SVD, AVPD, HUPA, MEEI;Binary;SVM, SGD;Stationary Wavelet Transform-based framework;99.97%
+41;Zhou et al. [111];2022;Neuromuscular pathologies, structural pathologies;MEEI, SVD, HUPA;Multi;SVM, MLP, RF;Gammatone spectral latitude (GTSL);99.60%
+43;Morikawa et al. [72];2022;Mild degree of vocal deviation;Local (Brazil);Binary;ANN;Wavelet Packet Transform (WPT);99.75%
+44;Chen and Chen [20];2022;Voice pathologies(unspecified);VOICED;Binary;DNN;MFCC ;97.80%
+45;Syed et al. [94];2021;Balbutias, Dysphonia, Frontolateral partial resection, Vox senilis, laryngeal Motion Disorder, Reinke edema, Polyp, Carcinoma, Leukoplakia;SVD;Multi;CNN, LSTM-RNN;MFCC, pitch, ZCR, spectral entropy, energy, roll-off;86.87%
+46;Syed et al. [93];2021;Cyst, dysphonia, laryngitis, nonfluency syndrome;SVD;Binary;SVM, NB, DT  ;MFCC, pitch, ZCR, spectral entropy, energy, roll-off;100%
+47;Lee [61];2021;Dysphonia, laryngitis, vocal fold polyp, leukoplakia, vocal fold cancer, vocal nodule,Reinke's edema,Granuloma, contact ulcers;SVD;Binary;CNN, FNN;skewness/kurtosis, LPCC, MFCC;82.69%
+48;Chen et al. [21];2021;Voice pathologies (unspecified);VOICED;Binary;KNN;LPCC;98.23%
+49;Muhammad and  Ahussein [73];2021;Voice pathologies (unspecified);SVD;Binary;CNN, LSTM;Mel-spectrogram;95%
+50;Mahmoud et al. [65];2021;Aphasia;Local (China) ;Binary;SVM, QSVM, RF, LDA, KNN, CNN;MFCC, formant frequency, energy;99.23%
+51;Wahengbam  et al. [103];2021;Dysphonia, reflux laryngitis;VOICED;Multi;3D CNN;Custom, Morlet wavelet ;97.70%
+52;Ankışhan and Inam [12];2021;Dysphonia, cyst, vocal fold polyp, sulcus vocalis;SVD, local;Binary;CNN, LSTM;MFCC, ZCR, Entropy, energy, shimmer;99.53%
+53;Hu et al. [50];2021;vocal atrophy, unilateral vocal paralysis, organic vocal fold lesions, dysphonia;Local (Taiwan);Multi;CNN;MFCC;67%
+54;Ding et al. [26];2021;Dysphonia, laryngitis Rekurrensparse hyperfunctional Dysphonia;SVD, SZUPD  ;Multi;CNN(ResNet);MFCC;82.20%
+55;Al-Dhief et al. [3];2021;cyst, polyp, and paralysis;SVD;Multi;OSELM (ELM);MFCC;91.17%
+56;Seedat et al. [85];2020;Paralysis, polyp;Local;binary;RF, XGBoost, NB, SVM, KNN.;octave-based spectral contrast, MFCC;95.65%
+57;Mohammed et al. [70];2020;voice pathologies (unspecified);SVD;Binary;CNN (ResNet34);Spectrogram;95.41%
+58;Barreira and Ling [15];2020;voice pathologies (unspecified);MEEI;Binary;GMM, NB;H-KLD, MFCC;99.55%
+59;Kim et al. [56];2020;Laryngeal cancer;Local;Binary;SVM, XGBoost, LightGBM, ANN, CNN;MFCC;85%
+60;Hammami et al. [43];2020;Dysphonia, laryngitis, Rekurrensparse, paralysis, Parkinson, Alzheimer;SVD, local (Tunisia);Binary;SVM;EMD-DWT and Higher Order Statistics ;99.26%
+61;Kadiri and Alku. [54];2020;Voice pathologies (unspecified);HUPA, SVD ;Binary;SVM;MFCC, spectrogram;76.19%
+62;Gidaye et al. [35];2020;Cyst, paralysis, polyp;SVD, HUPA, MEEI, AVPD;Binary;SVM, ANN, SGD;SWT, statistical ;99.98%
+63;Gour et al. [37];2020;Laryngeal cancer;local (India);Binary;SVM, RF;MFCC;80%
+64;Aicha [1];2020;Erythroplakia, keratosis, Leukoplakia ;MEEI, SVD;Binary;SVM, ELM, XGBoost;MFCC, LPCC, Reflection Coefficient, Log Area Ratios, ;86.11%
+65;Fang et al. [30];2019;Voice pathologies (unspecified);MEEI;Binary;DNN, GMM, SVM;MFCC;99.32%
+66;Guedes et al. [41];2019;Dysphonia, laryngitis, paralysis;SVD;Multi;CNN, LSTM;Spectrogram;80%
+67;Guan and Lerch [39];2019;voice pathologies (unspecified);MEEI;Binary;SVM, CNN;MFCC;95.90%
+68;Guan et al. [39];2019;voice pathologies (unspecified);MEEI;Binary;SVM, CNN, ;MFCC, mel-Spectrogram;93.50%
+69;Kassim et al. [55];2019;Vocal nodules, cysts, paralysis, polyps;MEEI, SVD;Multi;KNN, SVM;DTCWT ;93.32%
+70;Powell et al. [80];2019;Dysphonia, paralysis, polyps, polypoid corditis, papillomatosis;Local (USA);Binary;CNN;Spectrogram;90%
+71;Verde et al. [101];2019;Voice pathologies (unspecified);MEEI, SVD, VOICED;Binary;Boosted Trees;Jitter, Fundamental frequency, shimmer, HNR;84.50%
+72;Guedes et al. [41];2018;Laryngitis;SVD;Binary;LSTM-RNN, ANN;Jitter, Shimmer, Autocorrelation;100%
+73;Harar et al. [45];2018;Voice pathologies (unspecified);AVPD, MEEI, SVD, HUPA;Binary;XGBoost, Isolation Forest, CNN;Pitch, jitter, shimmer, energy, statistical, MFCC, HNR, ;73.30%
+74;Teixeira et al. [95];2018;dysphonia, laryngitis, paralysis;SVD;Binary;SVM;Jitter, shimmer, HNR, MFCC;71%
+75;de Souza et al. [91];2018;Voice pathologies (unspecified);MEEI;Binary;MLP;Haralick texture, Wavelets ;89.71%
+76;Verde et al. [100];2018;Voice pathologies (unspecified);SVD;Binary;SVM, DT, KNN, NB, Logistic Tree ;Formant, Jitter, shimmer, HNR, MFCC, fundamental frequency;85.77%
+77;M. Pham et al. [64];2018;Neoplasm, Phonotrauma, Vocal palsy;local (Taiwan);Multi;SVM, RF, KNN, GBoost ;MFCC;68.48%
+78;Al-Nasheri et al. [7];2018;Cysts, paralysis, polyps;MEEI, SVD, AVPD;Multi;SVM;peaks, lags, entropy;99.79%
+79;Vinod et al. [102];2018;Dysphonia;SVD;Binary;ANN;MDVP Features;93.33%
+80;Grzywalski et al. [38];2018;Cysts, laryngeal, polyps, neoplasm, nodules, paralysis;Local;Binary;CNN;MFCC, Jitter;71.20%
+81;Sodre et al. [88];2017;Voice pathologies (unspecified);MEEI;Binary;ANN;Acoustic (jitter, shimmer, PPQ, HNR, APQ, etc.) ;99.40%
+82;Muhammad et al. [74];2017;Cysts, paralysis, polyps;MEEI, SVD, AVPD;Multi;SVM;Interlaced derivative pattern ;99.40%
+83;Dahmani and Guerti [24];2017;Dysphonia, paralysis;SVD;Binary;NB;MFCC;90%
+84;Amami and Smiti [10];2017;Voice pathologies (unspecified);MEEI;Binary;DBSCAN-SVM;MFCC;98%
+85;Teixeira et al. [96];2017;Dysphonia;SVD;Binary;ANN;Jitter, shimmer, HNR;100%
+86;Harar et al. [44];2017;Voice pathologies (unspecified);SVD;Binary;DNN, LSTM;Waveform (Raw);71.36%
+87;Hemmerling [47];2017;Dysphonia, laryngitis, paralysis;SVD;Multi;ANN;MFCC, Jitter, shimmer, entropy Kurtosis;87.50%
+88;Al-Nasheri et al. [8];2017;Cysts, Paralysis, Polyps ;SVD, MEEI, AVPD;Binary;SVM;MDVP features;99.68%
+89;Muhammad et al. [75];2016;Voice pathologies (unspecified);MEEI ;Binary;SVM;Vocal tract irregularity ;99.02%
+90;Ben Aicha and Ezzine [16];2016;Laryngeal cancer;SVD;Binary;ANN;Time/frequency features;96.90%
+91;Cordeiro et al. [23];2016;Physiological pathologies, neuromuscular pathologies;MEEI;Binary;GMM, SVM, LDA;MFCC, spectral ;98.70%
+92;Hemmerling et al. [48];2016;Voice pathologies (unspecified);SVD;Binary;k-means, RF;Jitter, shimmer, energy, MFCC;100%
+93;Hammami et al. [42];2016;Laryngitis, paralysis, dysphonia, voice tremor, Reinke's edema;SVD;Binary;SVM;Pitch, formants;86%
+94;Francis et al. [31];2016;Voice pathologies (unspecified);MEEI, local (India);Binary;ANN;Modified Mellin Transform ;96.48%
+95;Amara et al. [11];2016;Dysphonia;SVD;Binary;SVM, GMM  ;MFCC;96.50%
+96;Ezzine et al. [29];2016;Laryngeal cancer;SVD;Binary;ANN;temporal /frequency;98%
+97;Ali et al. [6];2016;Voice pathologies (unspecified);AVPD;Binary;SVM;Voice contour, intensity;100%
+98;Ghasemzadeh [34];2015;Voice pathologies (unspecified);MEEI;Binary;Genetic algorithm, LDA, SVM;Phase space parameters, Lyapunov spectrum;98.40%
+99;Akbari and Arjmandi  [2];2015;Voice pathologies (unspecified);MEEI;Binary;SVM;Discrete wavelet coefficients;97.01%
+100;Mekyska et al. [67];2015;Voice pathologies (unspecified);MEEI, HUPA, PARCZ (Czech);Binary;SVM, RF;Acoustic ;99.90%
