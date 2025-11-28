@@ -1,5 +1,5 @@
 ﻿OrderNumber;Authors, Reference;YearOfPublication;Diseases targeted;Database;Classification ;Used Classifiers;Features;Best Accuracy
-1;Song et al. [89];2024;Laryngeal cancer, paralysis, mucosal diseases;Private (Korea);Multi;CNN (Resnet);MFCC, Octave Frequency Spectrum Energy;100%
+1;Song et al. [89];2024;Laryngeal cancer, paralysis, mucosal diseases;Private (South Korea);Multi;CNN (Resnet);MFCC, Octave Frequency Spectrum Energy;100%
 2;Sayadi et al. [83];2024;Voice pathologies (unspecified) ;Private (Iran);Binary;DNN;jitter, shimmer, pitch, MFCC, SNR, formants;91%
 3;Di Cesare et al. [25];2024;Parkinson’s disease;Local;Binary;KNN, SVM, wide NN;MFCC, GTCC;92.30%
 4;Lee and Lee [60];2024;Voice pathologies (unspecified);SVD;Binary;CNN(Resnet18),  SVM;Handcrafted;80.90%
@@ -12,7 +12,7 @@
 11;Disken  [27];2024;;SVD;Multi;CNN (ResNet);Waveforms (Raw);99.40%
 12;Yagnavajjula et al. [108];2024;Dysphonia, Recurrent laryngeal nerve palsy;SVD;Binary;SVM, ANN;MFCC, openSmile;81%
 13;Rehman [81];2024;Voice pathologies (unspecified);SVD, MEEI, Private;Binary;SVM, KNN, NB, DT;Frequency, jitter, period, shimmer;99.97%
-14;Kim et al. [58];2024;laryngeal cancer, vocal cord paralysis, mucosal disease;Local (Korea);Multi;SVM, ANN, GBM ;MFCC;97%
+14;Kim et al. [58];2024;laryngeal cancer, vocal cord paralysis, mucosal disease;Local (South Korea);Multi;SVM, ANN, GBM ;MFCC;97%
 15;Javanmardi et al. [52];2024;Voice pathologies (unspecified);SVD, HUPA ;Binary;SVM, RF, LSTM, CNN;MFCC, mel-spectrogram, spectrogram;76%
 16;Coelho et al. [22];2023;Voice pathologies(unspecified);SVD;Binary;RF, XGBoost;Spectral;90.60%
 17;Za’im et al. [109];2023;Dysphonia;MVPD (Malaysia);Binary;OSELM ;MFCC;90%
@@ -40,7 +40,6 @@
 39;Chaiani et al. [19];2022;Cordectomy, dysphonia, Frontolateral laryngectomy, Pachydermia larynges;SVD;Multi;CNN-LSTM;STFT (spectrogram);71.15%
 40;Shrivas et al. [87];2022;Voice pathologies (unspecified);SVD, AVPD, HUPA, MEEI;Binary;SVM, SGD;Stationary Wavelet Transform-based framework;99.97%
 41;Zhou et al. [111];2022;Neuromuscular pathologies, structural pathologies;MEEI, SVD, HUPA;Multi;SVM, MLP, RF;Gammatone spectral latitude (GTSL);99.60%
-42;Javanmardi et al.[53];2022;Voice pathologies (unspecified);HUPA;Binary;SVM, RF, Adaboost, DNN, LSTM, CNN;MFCC, spectrogram, and mel-spectrogram;81%
 43;Morikawa et al. [72];2022;Mild degree of vocal deviation;Local (Brazil);Binary;ANN;Wavelet Packet Transform (WPT);99.75%
 44;Chen and Chen [20];2022;Voice pathologies(unspecified);VOICED;Binary;DNN;MFCC ;97.80%
 45;Syed et al. [94];2021;Balbutias, Dysphonia, Frontolateral partial resection, Vox senilis, laryngeal Motion Disorder, Reinke edema, Polyp, Carcinoma, Leukoplakia;SVD;Multi;CNN, LSTM-RNN;MFCC, pitch, ZCR, spectral entropy, energy, roll-off;86.87%
