@@ -9,7 +9,7 @@
 8;Zhao et al.[110] ;2024;Voice pathologies (unspecified);MEEI, SVD, HUPA;Binary;CNN, MLP, LSTM;MFCC, GTCC, waveforms, Glottal flow features;98.22%
 9;Korba et al. [59] ;2024;Voice pathologies (unspecified);HUPA;Binary;SVM, RF, XGBoost;Fundamental frequency, MFCC;88.79%
 10;Özbay et al. [78] ;2024;cordectomy, dysphonia, partial resection, contact pachyderma, laryngitis, Lukoplakia, Reinke’s edema, paralysis, polyps, vox-senilis;SVD;Multi;SVM;MFCC, RMSE,  ZCR;99.50%
-11;Disken  [27];2024;;SVD;Multi;CNN (ResNet);Waveforms (Raw);99.40%
+11;Disken  [27];2024;Uknown;SVD;Multi;CNN (ResNet);Waveforms (Raw);99.40%
 12;Yagnavajjula et al. [108];2024;Dysphonia, Recurrent laryngeal nerve palsy;SVD;Binary;SVM, ANN;MFCC, openSmile;81%
 13;Rehman [81];2024;Voice pathologies (unspecified);SVD, MEEI, Private;Binary;SVM, KNN, NB, DT;Frequency, jitter, period, shimmer;99.97%
 14;Kim et al. [58];2024;laryngeal cancer, vocal cord paralysis, mucosal disease;Local (South Korea);Multi;SVM, ANN, GBM ;MFCC;97%
